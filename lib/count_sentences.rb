@@ -14,7 +14,7 @@ class String
   #   end
   # end
 
-  def question? 
+  def question?
     self.end_with?("?") || self.end_with?("? ")
   end
 
