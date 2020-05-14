@@ -3,12 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    unless self.end_with?(".") || self.end_with?(". ")
-      false
-    else
-      true
+      self.end_with?(".")
     end
-  end
 
   def question?
     unless self.end_with?("?") || self.end_with?("? ")
