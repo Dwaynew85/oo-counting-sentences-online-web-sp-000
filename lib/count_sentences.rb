@@ -6,12 +6,16 @@ class String
       self.end_with?(".")
     end
 
-  def question?
-    unless self.end_with?("?") || self.end_with?("? ")
-      false
-    else
-      true
-    end
+  # def question?
+  #   unless self.end_with?("?") || self.end_with?("? ")
+  #     false
+  #   else
+  #     true
+  #   end
+  # end
+
+  def question? 
+    self.end_with?("?") || self.end_with?("? ")
   end
 
   def exclamation?
