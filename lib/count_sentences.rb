@@ -14,13 +14,13 @@ class String
     self.end_with?("!") || self.end_with?("! ")
   end
 
-  def exclamation?
-    unless self.end_with?("!") || self.end_with?("! ")
-      false
-    else
-      true
-    end
-  end
+  # def exclamation?
+  #   unless self.end_with?("!") || self.end_with?("! ")
+  #     false
+  #   else
+  #     true
+  #   end
+  # end
 
   def count_sentences
 
